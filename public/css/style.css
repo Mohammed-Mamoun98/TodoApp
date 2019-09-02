@@ -1,0 +1,154 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    /* background-color:#E6E6FA; */
+background-color: #F5F5F5;
+    font-family: 'Lexend Deca';
+
+}
+
+h1{
+   font-family: 'Montserrat', sans-serif;
+
+}
+.Container{
+   
+    margin-top: 50px;
+}
+
+.hero{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.hero h1{
+    margin: auto;
+    font-size: 7vw;
+    font-family: 'Lexend Deca';
+    color: #C9E5D5	;
+    font-weight: 300;
+}
+
+.task-container *{
+
+background-color: rgba(255, 255, 255, 0.582);   
+    text-align: center;
+    height: auto;
+    min-height: 40px;
+    margin: auto;
+
+}
+
+.Container div{
+    margin: auto;
+   
+    
+}
+
+.Container{
+    display: block;
+}
+#main {
+    border-top: 6px solid #C9E5D5;
+    margin-top:30px;
+}
+
+.task-container{
+    display: flex;
+    width: 700px;
+    background-color: #fff;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.514);
+    margin-left: 30px;      
+    min-height: auto;
+    min-width: auto;
+    max-height: auto;
+    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.582);
+}
+.Container input ,form{
+    border: none;
+    width: 100%;
+}
+
+.task-container > input{
+    width: 100%;
+}
+
+
+
+.Tasks .task-container{
+   display: flex;
+}
+
+.items{
+    flex: 2;
+   
+}
+.items p{
+    margin: 10px;
+}
+
+
+.options{
+    flex: 2;
+}
+
+.options li,a,p{
+    display: inline;
+    margin: px;
+    text-decoration: none;
+    color: #C9E5D5;
+
+}
+
+.description{
+flex: 14;
+padding-top: 10px;
+}
+
+.description p{
+    color: #000;
+}
+.check{
+    flex: 1;
+    display: flex;
+align-content: flex-start;
+    padding: 5px;
+    
+    
+}
+
+.check input{
+background-color: #fff;
+
+}
+input[type='checkbox'] { 
+display: block;
+ }
+
+ .checkbox{
+     display: none;
+    height: 70%;
+
+     margin: 5%;
+     padding: 10%;
+     width: 70%;
+     border: 1.5px solid #000;
+ }
+
+#items-num p    {
+    margin-top: 20px;
+    padding-top: 10px;   
+}
+
+.checkBtn{
+    border: rgba(128, 128, 128, 0.383) 2px solid;
+    padding: 0.5rem 1rem;
+    
+}
+
+.delete{
+    flex: 1;
+}
